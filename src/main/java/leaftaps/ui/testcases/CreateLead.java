@@ -23,6 +23,8 @@ public class CreateLead extends ProjectSpecificMethods {
 				.clickLeads().clickCreateLead().enterCompanyName(CompanyName).enterFirstName(FirstName)
 				.enterLastName(lastname).clickCreateLeadButton().getLeadID();
 System.out.println("Divya update to GitHub");
+System.out.println("Divya update to GitHub");
+System.out.println("Divya update to GitHub");
 	}
 
 }
