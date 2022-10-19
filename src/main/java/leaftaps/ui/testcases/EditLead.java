@@ -19,5 +19,6 @@ public class EditLead extends ProjectSpecificMethods {
 	@Test(dataProvider="sendData")
 	public void runEditLead(String username,String password,String phone) throws InterruptedException {
 		new LoginPage(driver).enterUsername(username).enterPassword(password).clickLogin_positive().clickCRMSFA().clickLeads().clickFindLeads().clickPhone().enterPhoneNumber(phone).clickFindLeadsButton().clickEdit().enterCompanyName().clickUpdate();
+System.out.println("gitup changing for my learn");
 }
 }
